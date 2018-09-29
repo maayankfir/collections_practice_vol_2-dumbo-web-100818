@@ -40,6 +40,6 @@ def count_elements(array)
   array.uniq
 end
 
-def marge_data(array)
+def merge_data(array)
 
 end
