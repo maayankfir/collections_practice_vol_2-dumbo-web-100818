@@ -59,4 +59,3 @@ def find_cool(array)
    end
 end
 end
-  
