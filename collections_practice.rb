@@ -72,7 +72,3 @@ def organize_schools(hash)
   end
   new_hash
 end
-
-      
-  
-  
