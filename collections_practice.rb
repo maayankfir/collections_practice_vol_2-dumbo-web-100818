@@ -40,6 +40,8 @@ def count_elements(array)
   array.uniq
 end
 
-def merge_data(array)
-
+def merge_data(array1, array2)
+  array1[0].values.collect.with_index do |key, value|
+    array2[value].merge(key)
+  end
 end
