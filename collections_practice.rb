@@ -41,7 +41,14 @@ def count_elements(array)
 end
 
 def merge_data(array1, array2)
-  array1[0].values.collect.with_index do |key, value|
-    array2[value].merge(key)
+  merge_array = []
+  array1[0].each do |k, v|
+    array2.each do |key|
+      if key.values[0] == k
+        merge_array << key.merge(v)
+      end
+    end
   end
+  merge_array
 end
+
