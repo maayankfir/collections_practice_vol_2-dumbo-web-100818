@@ -45,7 +45,7 @@ def merge_data(array1, array2)
   array1[0].each do |k, v|
     array2.each do |key|
       if key.values[0] == k
-        merge_array << key.merge(v)
+        merge_array.push(key.merge(v))
       end
     end
   end
