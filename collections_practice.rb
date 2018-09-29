@@ -51,3 +51,12 @@ def merge_data(keys, data)
   end
   merge_array
 end
+
+def find_cool(array)
+   array.each do |k, v|
+   if k[:temperature] == "cool"
+   puts "#{k}"
+   end
+end
+end
+  
