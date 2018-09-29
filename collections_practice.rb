@@ -51,4 +51,3 @@ def merge_data(array1, array2)
   end
   merge_array
 end
-
