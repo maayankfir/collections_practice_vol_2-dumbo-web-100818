@@ -40,10 +40,10 @@ def count_elements(array)
   array.uniq
 end
 
-def merge_data(array1, array2)
+def merge_data(keys, data)
   merge_array = []
-  array1[0].each do |k, v|
-    array2.each do |key|
+  data[0].each do |k, v|
+    keys.each do |key|
       if key.values[0] == k
         merge_array.push(key.merge(v))
       end
