@@ -39,3 +39,7 @@ def count_elements(array)
   end
   array.uniq
 end
+
+def marge_data(array)
+
+end
